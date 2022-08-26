@@ -130,3 +130,30 @@ hr{
     padding: 0 3px;
 }
 /* FIM DOWNLOAD DO APP */
+
+@media (max-width: 1024px){
+    .container-login{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    body{
+        background-color: white;
+    }
+
+    .container-login{
+        width: 90%;
+    }
+
+    .phone-image{
+        display: none;
+    }
+
+    .group{
+        width: 100%;
+    }
+    .login, .register{
+        border: 1px solid transparent;
+    }
+}
